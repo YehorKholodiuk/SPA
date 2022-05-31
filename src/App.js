@@ -7,9 +7,16 @@ import Todo from "./todo";
 function App() {
   return (
     <div>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/todo">To-Do</Link>
+
+            <li><Link to="/">Home</Link></li>
+           <li>
+               <Link to="/about">About</Link>
+           </li>
+           <li>
+               <Link to="/todo">To-Do</Link>
+           </li>
+
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
