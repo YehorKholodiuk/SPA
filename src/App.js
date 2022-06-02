@@ -5,6 +5,7 @@ import Home from "./Home";
 import About from "./About";
 import Todo from "./todo";
 import Counter from "./Counter";
+import Kanban from "./kanban";
 
 function App() {
     return (
@@ -21,12 +22,17 @@ function App() {
                 <Link to="/counter">Counter</Link>
             </li>
 
+            <li>
+                <Link to="/kanban">Kanban</Link>
+            </li>
+
 
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="about" element={<About/>}/>
                 <Route path="todo" element={<Todo/>}/>
                 <Route path="counter" element={<Counter/>}/>
+                <Route path="kanban"  element={<Kanban/>}/>
             </Routes>
         </div>
     );
