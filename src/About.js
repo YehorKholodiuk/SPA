@@ -1,4 +1,5 @@
 import React from 'react';
+import {ListSubheader} from "@mui/material";
 
 const About = () => {
     return (
@@ -87,35 +88,33 @@ const About = () => {
                 ADDITIONAL SKILLS / ATTRIBUTES
             </h2>
 
-           <h4>
-               Computer Skills:
-           </h4>
+            <h4>
+                Computer Skills:
+            </h4>
 
-                <ol>
-                    <li>Proficient knowledge of MS Office, Adobe Acrobat X Pro.</li>
-                </ol>
-                <h4>Knowledge of foreign languages:</h4>
-                <li>
-                    Ukrainian – is a native speaker.
-                </li>
+            <ol>
+                <li>Proficient knowledge of MS Office, Adobe Acrobat X Pro.</li>
+            </ol>
+            <h4>Knowledge of foreign languages:</h4>
+            <li>
+                Ukrainian – is a native speaker.
+            </li>
 
-                <li>
-                    Russian – is a native speaker.
-                </li>
+            <li>
+                Russian – is a native speaker.
+            </li>
 
-                <li>
-                    English – fluent verbal and written knowledge.
-                </li>
+            <li>
+                English – fluent verbal and written knowledge.
+            </li>
 
-                <li>
-                    Greek – moderate, continual improvement.
-                </li>
+            <li>
+                Greek – moderate, continual improvement.
+            </li>
 
-                <li>
-                    German - moderate, continual improvement.
-                </li>
-
-
+            <li>
+                German - moderate, continual improvement.
+            </li>
 
 
             <h2>
@@ -123,14 +122,19 @@ const About = () => {
             </h2>
             <ol>
                 <h4>Programming Academy in Silicon Valley (PASV). (Sunnyvale, California)</h4>
-                <li>Certificate for the successful completion of the JavaScript Syntax course. (Completion date - July, 20,
-                    2020) – proficient knowledge.</li>
+                <li>Certificate for the successful completion of the JavaScript Syntax course. (Completion date - July,
+                    20,
+                    2020) – proficient knowledge.
+                </li>
 
-                <li>Certificate for the successful completion of the JavaScript Practice course.(Completion date – December
-                    1, 2020) – proficient knowledge.</li>
+                <li>Certificate for the successful completion of the JavaScript Practice course.(Completion date –
+                    December
+                    1, 2020) – proficient knowledge.
+                </li>
 
                 <li>
-                    Certificate for the successful completion of the Front-End React course.(Completion date – June, 2021) –
+                    Certificate for the successful completion of the Front-End React course.(Completion date – June,
+                    2021) –
                     proficient knowledge.
                 </li>
 
@@ -148,8 +152,10 @@ const About = () => {
                     4) Mongo DB and Postman ( experience with Restful API) – good working knowledge.
                 </li>
                 <section>
-                    I am familiar with Webpack, Docker, Mocha (I came across this test framework, while solving tasks on the
-                    www.codewars.com (educational platform)), and priorities of ES6 (and I like everything about it). I am
+                    I am familiar with Webpack, Docker, Mocha (I came across this test framework, while solving tasks on
+                    the
+                    www.codewars.com (educational platform)), and priorities of ES6 (and I like everything about it). I
+                    am
                     familiar with Typescript.
                     I know principles of SOLID.
                 </section>
@@ -158,36 +164,56 @@ const About = () => {
             </ol>
 
 
-             <ol>
-                 <h5> Additional info:</h5>
+            <ol>
+                <h5> Additional info:</h5>
 
-                 <li>
-                     <a href= "https://github.com/YehorKholodiuk">Link to my GitHub</a>
-                 </li>
-                 <li>
-                     <a href="https://www.linkedin.com/in/yehor-kholodiuk-9bbb6238/">Link to my Linkedin</a>
-                 </li>
+                <li>
+                    <a href="https://github.com/YehorKholodiuk">Link to my GitHub</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/yehor-kholodiuk-9bbb6238/">Link to my Linkedin</a>
+                </li>
 
-             </ol>
+            </ol>
 
 
+            <ol>
+                <h4>CTL EUROCOLLEGE (Cyprus, Limassol).</h4>
+                <li>
+                    Master of Business Administration (2012 - 2014).
+                </li>
+            </ol>
 
-             CTL EUROCOLLEGE (Cyprus, Limassol).
-            Master of Business Administration (2012 - 2014).
+            <ol>
+                <h4>Dnepropetrovsk University of Economics and Law, (Ukraine).</h4>
 
-             Dnepropetrovsk University of Economics and Law, (Ukraine).
-            Bachelor of Science (academic equivalent of the specialist degree) in
-            Finance (2003 – 2007).
-            Subject of the Diploma project: “Evaluation of the financial and economic
-            activity based on the example of the big scale enterprise (industrial
-            Enterprise).
+                <li>Bachelor of Science (academic equivalent of the specialist degree) in
+                    Finance (2003 – 2007).
+                </li>
+               <section>
+                   Subject of the Diploma project: “Evaluation of the financial and economic
+                   activity based on the example of the big scale enterprise (industrial
+                   Enterprise).
+               </section>
 
-            Driving experience: since 2008.
-            Personal skills:
-            High efficiency, analytical mind, honesty, integrity, sociability, high trainability.
-            Hobbies:
-            Music (rock, medieval, new age), reading, learning foreign languages, karaoke
-            singing, swimming, training at the gym, travelling.
+            </ol>
+
+            <section>
+                Driving experience: since 2008.
+            </section>
+
+               <h4>
+                   Personal skills:
+               </h4>
+            <ol>
+                High efficiency, analytical mind, honesty, integrity, sociability, high trainability.
+                Hobbies:
+                Music (rock, medieval, new age), reading, learning foreign languages, karaoke
+                singing, swimming, training at the gym, travelling.
+
+            </ol>
+
+
 
 
         </div>
