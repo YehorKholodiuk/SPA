@@ -15,6 +15,7 @@ li {
   list-style: none;
   margin-bottom: 8px;
   border-left:5px solid darkgreen;
+  mso-list-type: simple;
 }
 
 li.done {
@@ -22,3 +23,8 @@ li.done {
   margin-bottom: 8px;
   border-left:5px solid red;
 }
+
+
+
+
+
