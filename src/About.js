@@ -6,14 +6,17 @@ const About = () => {
         <div className="App1">
             <h1>Kholodiuk Yehor</h1>
             <header>
-                Date of Birth: 03.04.1985.
-                Citizenship: Cyprus (I don’t have any visa issues)
-                Nationality: Ukrainian.
-                Marital status: single.
-                Address: Arch.Makarios Avenue 219, Gloria house, flat 502, Limassol.
-                Home phone: +357 99 077 536
-                Email: egor.kholodiuk@gmail.com
-                Position wanted: front – end developer, JavaScript developer.
+                <ol>
+                    <li>Date of Birth: 03.04.1985.</li>
+                    <li>Citizenship: Cyprus (I don’t have any visa issues)</li>
+                    <li>Nationality: Ukrainian.</li>
+                    <li>Marital status: single.</li>
+                    <li>Address: Arch.Makarios Avenue 219, Gloria house, flat 502, Limassol.</li>
+                    <li>Home phone: +357 99 077 536</li>
+                    <li>Email: egor.kholodiuk@gmail.com</li>
+                    <li>Position wanted: front – end developer, JavaScript developer.</li>
+                </ol>
+
 
             </header>
             <h2>
