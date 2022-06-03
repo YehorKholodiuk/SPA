@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import {Routes, Route, Link} from "react-router-dom";
 import Home from "./Home";
@@ -6,6 +6,7 @@ import About from "./About";
 import Todo from "./todo";
 import Counter from "./Counter";
 import Kanban from "./kanban";
+import GitSearchEngine from "./GitSearchEngine";
 
 function App() {
     return (
@@ -26,6 +27,10 @@ function App() {
                 <Link to="/kanban">Kanban</Link>
             </li>
 
+            <li>
+                <Link to="/GitSearchEngine">GitSearchEngine</Link>
+            </li>
+
 
             <Routes>
                 <Route path="/" element={<Home/>}/>
@@ -33,6 +38,7 @@ function App() {
                 <Route path="todo" element={<Todo/>}/>
                 <Route path="counter" element={<Counter/>}/>
                 <Route path="kanban"  element={<Kanban/>}/>
+                <Route path="GitSearchEngine" element={<GitSearchEngine/>}/>
             </Routes>
         </div>
     );
