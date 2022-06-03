@@ -158,9 +158,19 @@ const About = () => {
             </ol>
 
 
-            Additional info:
-            https://github.com/YehorKholodiuk
-            https://www.linkedin.com/in/yehor-kholodiuk-9bbb6238/
+             <ol>
+                 <h5> Additional info:</h5>
+
+                 <li>
+                     <a href= "https://github.com/YehorKholodiuk">Link to my GitHub</a>
+                 </li>
+                 <li>
+                     <a href="https://www.linkedin.com/in/yehor-kholodiuk-9bbb6238/">Link to my Linkedin</a>
+                 </li>
+
+             </ol>
+
+
 
              CTL EUROCOLLEGE (Cyprus, Limassol).
             Master of Business Administration (2012 - 2014).
