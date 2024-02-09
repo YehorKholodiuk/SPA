@@ -19,69 +19,49 @@ const About = () => {
 
 
             </header>
-            <h2>
-                CORE SKILLS AND EXPERIENCE
-            </h2>
+            <h1>
+                   EXPERIENCE
+            </h1>
 
-            I am responsible person with professional attitude to work.
-            <p/>
-            Years of experience in different fields of business activity gave me a great foundation of knowledge and
-            active thinking.
-            <p/>
-            Back office experience in corporate governance matters taught me to be precise and mindful.
-            Studying in the multicultural environment helped me to develop the perception of diverse cultures and
-            behaviors and sociability.
-            The increased need for professionals in IT specialties prompted me to master the specialty of front-end
-            developer.
-            I enjoy working with others but equally able to work on my own.
-            <hr/>
-            Employment
+
+            <h2> Employment </h2>
             <ol>
-                <li>
-                    LANARS (Custom software development services in Ukraine, Dnipro)
-                    Front-End Developer (remote position)
-                    August 2021 – November 2021.
-                    Participation in the development and testing of web application. https://byzans.com/ (tool for
-                    readers).
-                </li>
-
-                <li>PRIMECAP CYPRUS LIMITED (Cyprus, Limassol)
-                    Associate, Back Office Specialist.
-                    December 2010 – August 2014
-                    Responsibilities include:
-                    Record–keeping of inside current documents of the Company and management of the documents
-                    circulation.
-                    Support and technical assistance for the project managers of the Company in the arrangement of
-                    documentation of projects.
-                    Storage and data structuring of the electronic documents of the projects.
-                    Corporate advisory on all aspects in relation to restructurings and reorganizations, constitutional
-                    matters, statutory and regulatory compliance, corporate governance matters and shareholder meetings.
-                    Collection of documents required for KYC procedure.
-                </li>
-
+                <li>June 2023 - Current. Front-end Developer. Freelancing </li>
 
                 <li>
-                    Private Enterprise “TechTorgBusiness” (Ukraine, Dnepropetrovsk)
-                    Office-manager, Administrator.
-                    April 2008 – September 2010
-                    Responsibilities include:
-                    Establishing and maintaining business relationships with new clients.
-                    Support and technical assistance of the intermediary activity.
-                    Assistance with reconciliation of balance sheet accounts.
-                    Maintenance of the current document circulation.
-                    Analysis of markets of goods.
+                    PROTRADE CONSULTING GmbH (Germany Osnabruck)
+                    Front-End Developer (IT outsourcing)
+                    March 2022 – November 2022.
+                    Developed functional reusable React components for CRM System.
+                    Developed UI of online-store.
+                    Used Mocha and Chai for unit-testing.
+                    Collaborated with stakeholders during development processes to
+                    confirm creative proposals and design best practices.
+                    Teamed on user-centric design strategy in translation of UX and
+                    business requirements into coded solutions.
+                    Use regulatory and compliance standards for user interface designs.
+                    Improved tools to boost user interaction and deliver design versatility.
+                    Promoted better component lifecycle practices.
 
                 </li>
-
                 <li>
-                    Business Invest Investment Company, Ltd
-                    (Ukraine, Dnepropetrovsk)
-                    Trade Specialist
-                    September 2007 - December 2007
-                    Responsibilities include:
-                    Assistance in managing of share acquisition deals.
-                    Preparation of documents for share acquisition deals.
-                    Preparation of internal memo and instruction letters.
+                    Front-End Developer, LANARS (Custom Software
+                    Development Services) Remote Internship, Dnipro, Ukraine
+                    August 2021 – January 2022.
+                    In order to improve performance of the application, I convinced team
+                    to implement different kind of state manager.
+                    Cooperated with 10+ senior developers in development and testing of
+                    the big scale application.
+                    Improved tools to boost user interaction and deliver design versatility.
+                    Made recommendations for new technology integration based on
+                    suitability and alignment to business goals.
+                    Mastered practical use of Redux technology and optimized unit testing
+                    and development of functional components.
+                </li>
+                <li>
+                    Back Office Specialist, PRIMECAP CYPRUS LIMITED,
+                    Limassol, Cyprus.
+                    December 2010 - August 2014
                 </li>
 
             </ol>
@@ -100,15 +80,15 @@ const About = () => {
             </ol>
             <h4>Knowledge of foreign languages:</h4>
             <li>
-                Ukrainian – is a native speaker.
+                Ukrainian.
             </li>
 
             <li>
-                Russian – is a native speaker.
+                Russian.
             </li>
 
             <li>
-                English – fluent verbal and written knowledge.
+                English – proficient knowledge ( fluent verbal and written knowledge).
             </li>
 
             <li>
@@ -124,10 +104,15 @@ const About = () => {
                 EDUCATION:
             </h2>
             <ol>
-                <h4>Programming Academy in Silicon Valley (PASV). (Sunnyvale, California)</h4>
-                <li>Certificate for the successful completion of the JavaScript Syntax course. (Completion date - July,
-                    20,
-                    2020) – proficient knowledge.
+                <h4>Front End Development
+                    Programming Academy in Silicon
+                    Valley (PASV), Sunnyvale,
+                    California, USA.</h4>
+                <li>Certificate for the successful
+                    completion of the JavaScript
+                    Syntax course. (Completion date -
+                    July, 20, 2020) – proficient
+                    knowledge
                 </li>
 
                 <li>Certificate for the successful completion of the JavaScript Practice course.(Completion date –
@@ -144,15 +129,19 @@ const About = () => {
                 <h5>Other courses that have been undertaken and successfully completed:</h5>
 
                 <li>
-                    1) HTML, CSS Syntax - good working knowledge.
+                    HTML, CSS Syntax - proficient
+                    knowledge.
+
                 </li>
                 <li>
-                    2) Express JS – good working knowledge.
+                    Express JS – proficient knowledge.
                 </li>
-                <li>3) React Redux – good working knowledge.</li>
+                <li> React Redux – proficient knowledge.</li>
 
                 <li>
-                    4) Mongo DB and Postman ( experience with Restful API) – good working knowledge.
+                    Mongo DB and Postman
+                    (experience with Restful API) –
+                    proficient knowledge.
                 </li>
                 <section>
                     I am familiar with Webpack, Docker, Mocha (I came across this test framework, while solving tasks on
@@ -160,6 +149,7 @@ const About = () => {
                     www.codewars.com (educational platform)), and priorities of ES6 (and I like everything about it). I
                     am
                     familiar with Typescript.
+                    I have practical experience with Firebase.
                     I know principles of SOLID.
                 </section>
 
@@ -183,38 +173,29 @@ const About = () => {
             <ol>
                 <h4>CTL EUROCOLLEGE (Cyprus, Limassol).</h4>
                 <li>
-                    Master of Business Administration (2012 - 2014).
+                    MBA: Business Administration
+                    (20132-2014)
                 </li>
             </ol>
 
             <ol>
                 <h4>Dnepropetrovsk University of Economics and Law, (Ukraine).</h4>
 
-                <li>Bachelor of Science (academic equivalent of the specialist degree) in
-                    Finance (2003 – 2007).
+                <li>Bachelor of Science: Finance
+                    Alfred Noble University, Dnipro,
+                    Ukraine. (2004 – 2007).
                 </li>
-               <section>
-                   Subject of the Diploma project: “Evaluation of the financial and economic
-                   activity based on the example of the big scale enterprise (industrial
-                   Enterprise).
-               </section>
-
+               <h4>Petro Mohyla Black Sea National
+                   University, Ukraine, Mykolaiv. (2003 - 2004)
+                   Political science.
+               </h4>
             </ol>
 
             <section>
                 Driving experience: since 2008.
             </section>
 
-               <h4>
-                   Personal skills:
-               </h4>
-            <ol>
-                High efficiency, analytical mind, honesty, integrity, sociability, high trainability.
-                Hobbies:
-                Music (rock, medieval, new age), reading, learning foreign languages, karaoke
-                singing, swimming, training at the gym, travelling.
 
-            </ol>
 
 
 

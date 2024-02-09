@@ -3,10 +3,14 @@ import './App.css';
 import {Routes, Route, Link} from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
+import RockPaperScissors from "./RockPaperScissors";
 import Todo from "./todo";
 import Counter from "./Counter";
 import Kanban from "./kanban";
 import GitSearchEngine from "./GitSearchEngine";
+import Skills from "./Skills";
+import WeatherApi from "./weatherApi";
+
 
 function App() {
     return (
@@ -16,6 +20,17 @@ function App() {
             <li>
                 <Link to="/about">About</Link>
             </li>
+            <li>
+                <Link to="/skills">Skills</Link>
+            </li>
+            <li>
+                <Link to="/rockpaperscissors"> Rock Paper Scissors </Link>
+            </li>
+            <li>
+                <Link to="/weather"> WeatherToday </Link>
+            </li>
+
+
             <li>
                 <Link to="/todo">To-Do</Link>
             </li>
@@ -35,9 +50,12 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="about" element={<About/>}/>
+                <Route path="skills" element={<Skills/>}/>
+                <Route path="rockpaperscissors" element={<RockPaperScissors/>}/>
+                <Route path="weather" element={<WeatherApi/>}/>
                 <Route path="todo" element={<Todo/>}/>
                 <Route path="counter" element={<Counter/>}/>
-                <Route path="kanban"  element={<Kanban/>}/>
+                <Route path="kanban" element={<Kanban/>}/>
                 <Route path="GitSearchEngine" element={<GitSearchEngine/>}/>
             </Routes>
         </div>
