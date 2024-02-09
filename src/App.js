@@ -6,10 +6,12 @@ import About from "./About";
 import RockPaperScissors from "./RockPaperScissors";
 import Todo from "./todo";
 import Counter from "./Counter";
-import Kanban from "./kanban";
+import cards from "./Cards";
 import GitSearchEngine from "./GitSearchEngine";
 import Skills from "./Skills";
 import WeatherApi from "./weatherApi";
+import React from "react";
+import Cards from "./Cards";
 
 
 function App() {
@@ -39,8 +41,9 @@ function App() {
             </li>
 
             <li>
-                <Link to="/kanban">Kanban</Link>
+                <Link to="/cards">Memory game</Link>
             </li>
+
 
             <li>
                 <Link to="/GitSearchEngine">GitSearchEngine</Link>
@@ -52,10 +55,12 @@ function App() {
                 <Route path="about" element={<About/>}/>
                 <Route path="skills" element={<Skills/>}/>
                 <Route path="rockpaperscissors" element={<RockPaperScissors/>}/>
+                <Route path="cards" element={<Cards/>}/>
+
                 <Route path="weather" element={<WeatherApi/>}/>
                 <Route path="todo" element={<Todo/>}/>
                 <Route path="counter" element={<Counter/>}/>
-                <Route path="kanban" element={<Kanban/>}/>
+
                 <Route path="GitSearchEngine" element={<GitSearchEngine/>}/>
             </Routes>
         </div>

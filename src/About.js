@@ -143,15 +143,7 @@ const About = () => {
                     (experience with Restful API) –
                     proficient knowledge.
                 </li>
-                <section>
-                    I am familiar with Webpack, Docker, Mocha (I came across this test framework, while solving tasks on
-                    the
-                    www.codewars.com (educational platform)), and priorities of ES6 (and I like everything about it). I
-                    am
-                    familiar with Typescript.
-                    I have practical experience with Firebase.
-                    I know principles of SOLID.
-                </section>
+
 
 
             </ol>
@@ -174,7 +166,7 @@ const About = () => {
                 <h4>CTL EUROCOLLEGE (Cyprus, Limassol).</h4>
                 <li>
                     MBA: Business Administration
-                    (20132-2014)
+                    (2012-2014)
                 </li>
             </ol>
 
@@ -192,12 +184,15 @@ const About = () => {
             </ol>
 
             <section>
-                Driving experience: since 2008.
+                <ol>
+                    <li>
+                        Driving experience: since 2008.
+                    </li>
+
+
+                </ol>
+
             </section>
-
-
-
-
 
 
         </div>

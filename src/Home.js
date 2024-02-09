@@ -42,7 +42,9 @@ const Home = () => {
                 I live in Limassol, Cyprus. I have Cyprus citizenship and I don't need
                 Cyprus work permit.
                 I am always ready to answer all your questions.
-                Best regards,
+                </body>
+                <body>
+                Best regards!
                 </body>
 
                 Yehor Kholodiuk.
